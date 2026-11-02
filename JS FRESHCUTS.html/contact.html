@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact - JS FRESHCUTS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+<h1>Contact JS FRESHCUTS</h1>
+<h2>Visit Us</h2>
+<p>65 Jim Fouche, Universitas</p>
+
+<!-- JS FRESHCUTS LOCATION -->
+<section class="location-section">
+    <h2>Find Us</h2>
+    <p>65 Jim Fouché, Universitas, Bloemfontein</p>
+
+    <iframe
+        src="https://www.google.com/maps?q=65%20Jim%20Fouche,%20Universitas,%20Bloemfontein&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <a href="https://www.google.com/maps/search/?api=1&query=65+Jim+Fouche+Universitas+Bloemfontein"
+       target="_blank">
+        Get Directions
+    </a>
+</section>
+
+<h2>Opening Hours</h2>
+<p> Opening Hours: 09:00-18:00</p>
+
+<h2>Contact Us</h2>
+
+<p>Phone: <a href="tel:+27734033293">+27 73 403 3293</a></p>
+<p>WhatsApp: <a href="https://wa.me/27734033293">Chat with us on WhatsApp</a></p>
+
+<h2>Follow Us</h2>
+
+<p>
+    Instagram:
+    <a href="https://www.instagram.com/jermorethebarber/" target="_blank">
+        @jermorethebarber
+    </a>
+</p>
+
+<p>
+    TikTok:
+    <a href="https://www.tiktok.com/@jermore_9" target="_blank">
+        @jermore_9
+    </a>
+</p>
+                
+         <h2>Book a Haircut</h2>
+
+<form id="bookingForm">
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <br><br>
+
+    
+<label for="service">Choose a Service:</label>
+
+<select id="service" name="service" required>
+    <option value="">Choose a Service</option>
+    <option value="Fade" data-price="120">Fade - R120</option>
+    <option value="Beard Trim" data-price="40">Beard Trim - R40</option>
+    <option value="Waves" data-price="80">Waves - R80</option>
+    <option value="Taper Fade" data-price="130">Taper Fade - R130</option>
+    <option value="Bald Cut" data-price="60">Bald Cut - R60</option>
+    <option value="Fade & Dye" data-price="150">Fade & Dye - R150</option>
+    <option value="Brushcut" data-price="90">Brushcut - R90</option>
+    <option value="Trim" data-price="55">Trim - R55</option>
+    <option value="House Call" data-price="190">House Call - R190</option>
+</select>
+
+    <br><br>
+
+    <label for="message">Message:</label>
+    <br>
+    <textarea id="message" name="message" required ></textarea>
+
+    <br><br>
+
+    <button type="submit">Send Booking Request</button>
+
+</form>
+<h2>House Calls</h2>
+<p>
+    JS FRESHCUTS also offers house call services for R190.
+</p>
+<footer>
+
+    <p>© 2026 JS FRESHCUTS. All rights reserved.</p>
+
+    <p>65 Jim Fouche, Universitas | 09:00 - 18:00</p>
+
+</footer>
+
+</body>
+</html>
